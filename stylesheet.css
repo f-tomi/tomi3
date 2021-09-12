@@ -1,0 +1,259 @@
+/* reset.css */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    width: 1366px;
+    height: 80px;
+    background-color: #EFA358;
+    margin: auto;
+   
+}
+
+.header-nav {
+    width: 1000px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 660px; 
+    color: #ffffff;
+
+}
+
+.header-nav h1 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 31px;
+    margin-top: 1.5px;
+}
+
+.header-ul {
+    font-size: 20px;
+    display: flex;
+    
+}
+
+.header-ul li {
+    margin-right: 20px;
+    margin-top: 2px;
+    line-height: 22px;
+}
+
+.header-ul li:nth-of-type(3) {
+    margin-right: 0;
+}
+
+
+
+
+/* main */
+.main {
+    text-align: center;
+}
+
+
+
+/* work */
+.work {
+    width: 1366px;
+    height: 544px;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+}
+
+.work-Introduction {
+    width: 1000px;
+    height: 544px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.Feature {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #555555;
+    margin-top: -65px;
+    margin-bottom: 40px;
+}
+
+
+.work-woman {
+    display: flex;
+    gap: 62px;
+}
+
+
+.work-explanation h2 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 30px;
+
+}
+
+.work-explanation p {
+    width: 394px;
+    height: 161px; 
+    font-size: 16px;
+    color: #555555;
+    flex-wrap: wrap;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.work-explanation h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #EFA358;
+    width: 197px;
+    height: 47px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer {
+    width: 1366px;
+    height: 100px;
+    background-color: #EFA358;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin: auto;
+}
+
+.footer h1 {
+    font-size: 24px;
+    line-height: 27px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 12px;
+    line-height: 14px;
+}
